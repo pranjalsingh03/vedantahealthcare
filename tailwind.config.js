@@ -2,7 +2,17 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'shiva': '#92C7CF',
+        'norm':'#AAD7D9',
+        'advc':'#FBF9F1',
+        'brew':'#E5E1DA',
+      },
+    },
+    borderRadius:{
+      lg:'4rem'
+    }
   },
   plugins: [],
 }

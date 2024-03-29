@@ -11,8 +11,12 @@ module.exports = {
       },
     },
     borderRadius:{
-      lg:'4rem'
-    }
+      lg:'4rem',
+      sm:'2rem'
+    },
+    fontSize:{
+      xl:'38px'
+    },
   },
   plugins: [],
 }

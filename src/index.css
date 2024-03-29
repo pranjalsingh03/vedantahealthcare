@@ -16,6 +16,10 @@ code {
     monospace;
 }
 
+div{
+  display: block;
+}
+
 li{
   list-style-type: none;
   display: flex;
@@ -27,16 +31,26 @@ li{
   font-size: 18px;
   font-weight: 300;
 }
-.translate{
-  display: block;
-}
 
-@media screen and (max-width: 768px) {
+@media not all and (min-width: 768px) {
   li{
     padding-left: 15px;
   }
-  .translate{
+  .hero-sec{
     display: none;
   }
-  
+  .quotes-sec{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .hero-box{
+    padding: 2rem;
+  }
+  .about-cont{
+    width: 20rem;
+  }
+  .appoint-box{
+    margin-right: auto;
+    padding: 10px;
+  }
 }

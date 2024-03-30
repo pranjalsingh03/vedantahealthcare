@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Aboutus from './comp/Aboutus';
 import Hero from './comp/Hero';
 import formal from './images/formal.png'
+import AppointmentBooking from './comp/Booking';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/Aboutus' component={Aboutus} />
       </Routes>
       <Hero name="Pranjal Singh" about="ms btech" pranjal={formal}/>
+      <AppointmentBooking/>
     </Router>
   );
 }

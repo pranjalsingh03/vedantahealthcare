@@ -19,11 +19,10 @@ const AppointmentBooking = () => {
 
     return (
         <>
-            <div className="bg-black h-9 w-12"></div>
+        <div className='bg-slate-300 flex pt-8'>
+            <p className='text-sm flex items-center w-1/2'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sint asperiores Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae illum vitae hic adipisci laborum! Earum, ex enim nam, tenetur aliquid unde minus aperiam voluptatum corrupti aspernatur quaerat fugit placeat culpa. molestiae. Maiores tempores non voluptate?</p>
             <div className="appoint-box max-w-md ml-auto mr-40 float bg-white shadow-md rounded-md">
-
-                <div className='bg-shiva p-3 rounded-t-sm '><h2 className="text-xl text-center font-semibold mb-4">Book an Appointment</h2></div>
-
+                <div className='bg-shiva p-3 rounded-t-sm'><h2 className="text-xl text-center font-semibold mb-4">Book an Appointment</h2></div>
                 <form onSubmit={handleSubmit} className='p-4'>
                     <div className="mb-4">
                         <label htmlFor="date" className="block text-sm font-medium text-gray-700 mb-1">Date:</label>
@@ -83,6 +82,8 @@ const AppointmentBooking = () => {
                     <button type="submit" className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300">Book Appointment</button>
                 </form>
             </div>
+            
+        </div>
         </>
     );
 };

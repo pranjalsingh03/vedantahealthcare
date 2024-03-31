@@ -1,17 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab7b0945.css",
-    "main.js": "/static/js/main.e0156bb0.js",
+    "main.css": "/static/css/main.d4b21b8b.css",
+    "main.js": "/static/js/main.ff937b0a.js",
     "static/js/453.9f89513b.chunk.js": "/static/js/453.9f89513b.chunk.js",
     "static/media/formal.png": "/static/media/formal.140757ad63312565acaa.png",
+    "static/media/brain.png": "/static/media/brain.1fc717ac42a312a0c75e.png",
+    "static/media/knee.png": "/static/media/knee.28daf7a3b61bc9391ba4.png",
+    "static/media/support.png": "/static/media/support.65586cd28f20261bc794.png",
+    "static/media/therapist.png": "/static/media/therapist.39ecda38c5240a71982f.png",
     "static/media/logo192.png": "/static/media/logo192.f9c9637a2b77ad44d016.png",
+    "static/media/solidarity.png": "/static/media/solidarity.d69eb766e272e4ade66f.png",
+    "static/media/spine.png": "/static/media/spine.39b69e1f66d26464851b.png",
+    "static/media/massage.png": "/static/media/massage.22fb61e9d0c5873d36ab.png",
+    "static/media/phone-call.png": "/static/media/phone-call.90000ca27a8a4d0424aa.png",
+    "static/media/whatsapp.png": "/static/media/whatsapp.7890ebb1991ceea33054.png",
+    "static/media/physio.jpeg": "/static/media/physio.77188844953c4b71b968.jpeg",
+    "static/media/call-back.png": "/static/media/call-back.195002928a1161bf3842.png",
+    "static/media/dumbell.png": "/static/media/dumbell.871842e87713bb00d215.png",
+    "static/media/hospital.png": "/static/media/hospital.65c39a1379347b4735f2.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.ab7b0945.css.map": "/static/css/main.ab7b0945.css.map",
-    "main.e0156bb0.js.map": "/static/js/main.e0156bb0.js.map",
+    "main.d4b21b8b.css.map": "/static/css/main.d4b21b8b.css.map",
+    "main.ff937b0a.js.map": "/static/js/main.ff937b0a.js.map",
     "453.9f89513b.chunk.js.map": "/static/js/453.9f89513b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab7b0945.css",
-    "static/js/main.e0156bb0.js"
+    "static/css/main.d4b21b8b.css",
+    "static/js/main.ff937b0a.js"
   ]
 }

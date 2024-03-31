@@ -12,8 +12,8 @@ function Hero(props) {
             <div className='hero-box p-28 pt-48 text-left'>
                 <p>Physiotherapist & Chiropractor</p>
                 <h2 className='quotes-sec flex justify-left text-xl border-l-4 border-cyan-950 pl-2 font-medium pb-1'>"In every step of your journey,<br /> physical therapy empowers you to go farther"</h2>
-                <p className='about-cont w-1/2 pt-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam alias repellendus quasi porro nostrum rem illo, voluptatem iusto ratione. Sed quasi ducimus magni quas a ea, excepturi aliquid maiores tempora!</p>
-                <a href="+91xxxxxxx" className='pt-10 '><button className="bg-shiva p-3 rounded-full">Call Now</button></a>
+                <p className='about-cont w-1/2 pt-8'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam alias repellendus quasi porro nostrum rem illo, voluptatem iusto ratione. Sed quasi ducimus magni quas a ea, excepturi aliquid maiores tempora!</p>
+                <button className="bg-shiva p-3 rounded-full mt-8"><a href="+91xxxxxxx" className=' '>Call Now</a></button>
                 
             </div>
         </>

@@ -19,13 +19,26 @@ const AppointmentBooking = () => {
 
     return (
         <>
-            <div className='flex mt-8'>
-                <p className='text-sm flex items-center w-1/2 text-bookpage'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sint asperiores Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae illum vitae hic adipisci laborum! Earum, ex enim nam, tenetur aliquid unde minus aperiam voluptatum corrupti aspernatur quaerat fugit placeat culpa. molestiae. Maiores tempores non voluptate?</p>
-                <div className="appoint-box max-w-md ml-auto mr-40 float bg-white shadow-md rounded-sm">
+            <div className='grid book-div grid-cols-2 mt-8'>
+                <div className='ml-40 mt-8 w-4/5 pb-12 text-bookpage'>
+                    <h1 className='text-sm font-bold'>We At VHC</h1>
+                    <h1 className='text-xl flex font-bold'>Provide you a complete healing Solution</h1>
+                    <p className='pt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis alias nisi saepe provident delectus harum, molestiae eius ratione animi hic pariatur.</p>
+                    <ul className="list-disc pl-4">
+                        <li className='book-li'>Offering cost-effective physiotherapy at home by a professional physiotherapist in Delhi NCR.</li>
+                        <li>100% guaranteed, effective, and quality home physiotherapy treatment to our patients.</li>
+                        <li>Providing any of the home physiotherapy in Delhi, Gurgaon, Noida & Ghaziabad whether it's Spine, orthopedic, neurological, sports or geriatric physiotherapy at home as per your convenience.</li>
+                        <li>Highly personalized care at low cost.</li>
+                        <li>Effective and quick physiotherapy at home to get better in the shortest time.</li>
+                        <li>Assessment on call.</li>
+                        <li>Get Certified, specialized and experienced home physiotherapist in Delhi, Gurgaon, Noida & Ghaziabad.</li>
+                    </ul>
+                </div>
+                <div className="appoint-box max-w-md ml-auto mr-40 float bg-white shadow-md rounded-b-md rounded-t-sm">
                     <div className='bg-shiva p-3 rounded-t-sm'><h2 className="text-xl text-center font-semibold mb-4">Book an Appointment</h2></div>
                     <form onSubmit={handleSubmit} className='p-4 rounded-sm'>
                         <div className="mb-4">
-                            <label htmlFor="date" className="block text-sm font-medium text-gray-700 mb-1">Date:</label>
+                            <label htmlFor="date" className="block text-md font-medium text-gray-700 mb-1">Date:</label>
                             <input
                                 id="date"
                                 type="date"
@@ -36,7 +49,7 @@ const AppointmentBooking = () => {
                             />
                         </div>
                         <div className="mb-4">
-                            <label htmlFor="time" className="block text-sm font-medium text-gray-700 mb-1">Time:</label>
+                            <label htmlFor="time" className="block text-md font-medium text-gray-700 mb-1">Time:</label>
                             <input
                                 id="time"
                                 type="time"
@@ -47,7 +60,7 @@ const AppointmentBooking = () => {
                             />
                         </div>
                         <div className="mb-4">
-                            <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Name:</label>
+                            <label htmlFor="name" className="block text-md font-medium text-gray-700 mb-1">Name:</label>
                             <input
                                 id="name"
                                 type="text"
@@ -58,7 +71,7 @@ const AppointmentBooking = () => {
                             />
                         </div>
                         <div className="mb-4">
-                            <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Email:</label>
+                            <label htmlFor="email" className="block text-md font-medium text-gray-700 mb-1">Email:</label>
                             <input
                                 id="email"
                                 type="email"
@@ -69,7 +82,7 @@ const AppointmentBooking = () => {
                             />
                         </div>
                         <div className="mb-4">
-                            <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">Phone:</label>
+                            <label htmlFor="phone" className="block text-md font-medium text-gray-700 mb-1">Phone:</label>
                             <input
                                 id="phone"
                                 type="tel"

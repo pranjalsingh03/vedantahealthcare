@@ -1,35 +1,57 @@
-import React from 'react';
-import logo192 from '../images/logo192.png';
-import {  Link } from "react-router-dom";
+import React, { useState } from 'react';
+import { NavLink } from "react-router-dom";
+import { Menu, X } from 'lucide-react';
 import Phonecall from '../images/support/phone-call.png';
 import Callback from '../images/support/call-back.png';
 import Whatsapp from '../images/support/whatsapp.png';
+import logo192 from '../images/logo192.png';
 
+const Navlinks = () => {
+  return (
+    <div className="flex items-center space-x-4">
+      <NavLink to="/about" className="text-gray-700 hover:text-gray-900">
+        About us
+      </NavLink>
+      <NavLink to="/services" className="text-gray-700 hover:text-gray-900">
+        Services
+      </NavLink>
+      <NavLink to="/contact" className="text-gray-700 hover:text-gray-900">
+        Contact us
+      </NavLink>
+    </div>
+  );
+};
 
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNav = () => {
+    setIsOpen(!isOpen);
+  }
 
   return (
-    <div className='fixed nav-div'>
-      <nav className='flex justify-around bg-shiva text-lg'>
+    <div className='fixed top-0 w-full z-50'>
+      <div className='flex justify-around bg-norm text-lg'>
         <p className='flex items-center'><img src={Callback} className='h-4 flex mr-2' alt="" /> Request a callback</p>
         <p className='flex items-center'><img src={Phonecall} className='h-4 flex mr-2' alt="" /> Call</p>
         <p className='flex items-center'><img src={Whatsapp} className='h-4 flex mr-2' alt="" /> Whatsapp</p>
+      </div>
+      <nav className='flex justify-around items-center bg-norm text-lg px-4 py-2'>
+        <img src={logo192} alt="logo" className='h-16 flex relative max-md:right-4' />
+        <div className="hidden md:flex">
+          <Navlinks />
+        </div>
+        <div className="md:hidden">
+          <button onClick={toggleNav}>
+            {isOpen ? <X className="h-6 w-6 text-gray-700" /> : <Menu className="h-6 w-6 text-gray-700" />}
+          </button>
+        </div>
       </nav>
-      <div className='flex justify-center bg-norm'>
-      <img src={logo192} alt="logo" className='h-16 flex relative right-32 max-md:right-4' />
-    <li>
-      <Link to="/">Home</Link>
-    </li>
-    <li>
-      <Link to="/Aboutus">Services</Link>
-    </li>
-    <li>
-      <Link to="/Aboutus">Aboutus</Link>
-    </li>
-    <li>
-      <Link to="/Aboutus">Contactus</Link>
-    </li>
-  </div>
+      {isOpen &&
+        <div className='bg-gray-100 p-4 flex flex-col basis-full items-center'>
+          <Navlinks />
+        </div>
+      }
     </div>
   )
 }

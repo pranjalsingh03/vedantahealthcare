@@ -19,11 +19,11 @@ const AppointmentBooking = () => {
 
     return (
         <>
-            <div className='bg-slate-300 flex pt-8'>
+            <div className='flex mt-8'>
                 <p className='text-sm flex items-center w-1/2 text-bookpage'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sint asperiores Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae illum vitae hic adipisci laborum! Earum, ex enim nam, tenetur aliquid unde minus aperiam voluptatum corrupti aspernatur quaerat fugit placeat culpa. molestiae. Maiores tempores non voluptate?</p>
-                <div className="appoint-box max-w-md ml-auto mr-40 float bg-white shadow-md rounded-md">
+                <div className="appoint-box max-w-md ml-auto mr-40 float bg-white shadow-md rounded-sm">
                     <div className='bg-shiva p-3 rounded-t-sm'><h2 className="text-xl text-center font-semibold mb-4">Book an Appointment</h2></div>
-                    <form onSubmit={handleSubmit} className='p-4'>
+                    <form onSubmit={handleSubmit} className='p-4 rounded-sm'>
                         <div className="mb-4">
                             <label htmlFor="date" className="block text-sm font-medium text-gray-700 mb-1">Date:</label>
                             <input

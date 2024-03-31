@@ -8,7 +8,7 @@ import logo192 from '../images/logo192.png';
 
 const Navlinks = () => {
   return (
-    <div className="flex items-center space-x-4">
+    <div className="flex md:flex-row flex-col items-center">
       <NavLink to="/about" className="text-gray-700 hover:text-gray-900">
         About us
       </NavLink>
@@ -17,6 +17,12 @@ const Navlinks = () => {
       </NavLink>
       <NavLink to="/contact" className="text-gray-700 hover:text-gray-900">
         Contact us
+      </NavLink>
+      <NavLink to="/bookappointment" className="text-gray-700 hover:text-gray-900">
+        Book Appointment
+      </NavLink>
+      <NavLink to="/FAQ" className="text-gray-700 hover:text-gray-900">
+        FAQ
       </NavLink>
     </div>
   );
@@ -41,14 +47,14 @@ function Navbar() {
         <div className="hidden md:flex">
           <Navlinks />
         </div>
-        <div className="md:hidden">
+        <div className="md:hidden flex">
           <button onClick={toggleNav}>
-            {isOpen ? <X className="h-6 w-6 text-gray-700" /> : <Menu className="h-6 w-6 text-gray-700" />}
+            {isOpen ? <X className="h-6 w-6 text-gray-700 ml-40" /> : <Menu className="h-6 w-6 text-gray-700 ml-40" />}
           </button>
         </div>
       </nav>
       {isOpen &&
-        <div className='bg-gray-100 p-4 flex flex-col basis-full items-center'>
+        <div className='bg-gray-100 p-4 flex flex-wrap basis-full justify-center'>
           <Navlinks />
         </div>
       }

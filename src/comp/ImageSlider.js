@@ -34,9 +34,10 @@ function ImageSlider() {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-xl font-semibold mb-4 flex justify-center">Vedanta Health Care</h1>
-      <p className="mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis alias nisi saepe provident delectus harum, molestiae eius ratione animi hic pariatur</p>
+    <div className='bg-cyan-100'>
+    <div className="container mx-auto px-4 py-20">
+      <h1 className="text-xl font-semibold mb-4 flex justify-center">VHC Specialists</h1>
+      <p className="mb-8 flex justify-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis alias nisi saepe provident delectus harum, molestiae eius ratione animi hic pariatur</p>
       <Slider {...settings}>
         <div className='slide-items'>
           <img className="mx-auto rounded-full" src={therapist} alt="Specialist" />
@@ -67,6 +68,7 @@ function ImageSlider() {
           <p className="text-center mt-2">Specialist 7</p>
         </div>
       </Slider>
+    </div>
     </div>
   );
 }

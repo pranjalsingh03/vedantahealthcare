@@ -9,20 +9,26 @@ import logo192 from '../images/logo192.png';
 const Navlinks = () => {
   return (
     <div className="flex md:flex-row flex-col items-center">
-      <NavLink to="/about" className="text-gray-700 hover:text-gray-900">
+      <NavLink to="/" className="text-gray-700 hover:text-gray-900">
+        Home
+      </NavLink>
+      <NavLink to="/aboutus" className="text-gray-700 hover:text-gray-900">
         About us
       </NavLink>
-      <NavLink to="/services" className="text-gray-700 hover:text-gray-900">
-        Services
-      </NavLink>
-      <NavLink to="/contact" className="text-gray-700 hover:text-gray-900">
-        Contact us
+      <NavLink to="/Blogs" className="text-gray-700 hover:text-gray-900">
+        Blogs
       </NavLink>
       <NavLink to="/bookappointment" className="text-gray-700 hover:text-gray-900">
         Book Appointment
       </NavLink>
+      <NavLink to="/contact" className="text-gray-700 hover:text-gray-900">
+        Contact us
+      </NavLink>
       <NavLink to="/FAQ" className="text-gray-700 hover:text-gray-900">
         FAQ
+      </NavLink>
+      <NavLink to="/services" className="text-gray-700 hover:text-gray-900">
+        Services
       </NavLink>
     </div>
   );

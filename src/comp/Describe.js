@@ -22,7 +22,7 @@ function Describe() {
                     <p className='desc-text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea dolorem enim voluptate recusandae inventore alias doloribus doloremque nulla aperiam distinctio minus natus nihil, veniam nam dolor molestiae asperiores modi facere?</p>
                 </div>
             </div>
-            <div className="container mx-auto px-4 py-8">
+            <div className="container mx-auto px-8 py-8">
                 <h1 className="text-xl font-semibold mb-4 flex justify-center">360 DEGREE PHYSIO CARE</h1>
                 <p className="mb-8">We are committed to ensuring that our clients have easy access to our physiotherapy services, whether it's at any of our Clinics or through scheduling a convenient Home visit.</p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

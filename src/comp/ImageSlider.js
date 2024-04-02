@@ -35,7 +35,7 @@ function ImageSlider() {
 
   return (
     <div className='bg-cyan-100'>
-    <div className="container mx-auto px-4 py-20">
+    <div className="container mx-auto px-8 py-20">
       <h1 className="text-xl font-semibold mb-4 flex justify-center">VHC Specialists</h1>
       <p className="mb-8 flex justify-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis alias nisi saepe provident delectus harum, molestiae eius ratione animi hic pariatur</p>
       <Slider {...settings}>

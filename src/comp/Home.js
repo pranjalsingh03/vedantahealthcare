@@ -8,8 +8,6 @@ import Describe from './Describe';
 import ImageSlider from './ImageSlider';
 import Services from './Services';
 import Features from './Features';
-import Footer from './Footer';
-// import mainBlog from './comp/Blog/mainBlog';
 
 function Home() {
   return (

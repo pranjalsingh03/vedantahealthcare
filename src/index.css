@@ -20,7 +20,7 @@ div{
   display: block;
 }
 
-li{
+.nav-li{
   list-style-type: none;
   display: flex;
   padding-left: 30px;
@@ -31,10 +31,30 @@ li{
   font-size: 18px;
   font-weight: 300;
 }
+.nav-div{
+  width: 100%;
+  z-index: 999;
+}
+.main-appoint{
+  grid-template-columns: 1fr 1fr;
+}
+.desc-img{
+  width: 7rem;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.desc-text{
+  padding: 2rem;
+}
+.book-li{
+  margin-top: 2rem;
+}
+
 
 @media not all and (min-width: 768px) {
-  li{
-    padding-left: 15px;
+  .nav-li{
+    padding-left: 10px;
   }
   .hero-sec{
     display: none;
@@ -45,6 +65,7 @@ li{
   }
   .hero-box{
     padding: 2rem;
+    padding-top: 12rem;
   }
   .about-cont{
     width: 20rem;
@@ -52,5 +73,18 @@ li{
   .appoint-box{
     margin-right: auto;
     padding: 10px;
+  }
+  .text-bookpage{
+    /* display: none; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .describe{
+    display: block;
+    padding: 0rem;
+    padding-top: 3rem;
+  }
+  .book-div{
+    display: block;
   }
 }

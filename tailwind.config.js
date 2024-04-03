@@ -12,10 +12,13 @@ module.exports = {
     },
     borderRadius:{
       lg:'4rem',
-      sm:'2rem'
+      sm:'2rem',
+      md:'1rem'
     },
     fontSize:{
-      xl:'38px'
+      xl:'38px',
+      sm:'24px',
+      md:'15px' 
     },
   },
   plugins: [],

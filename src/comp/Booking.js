@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 
 const AppointmentBooking = () => {
     const [date, setDate] = useState('');
@@ -6,15 +7,29 @@ const AppointmentBooking = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
+    const [address, setAddress] = useState('');
 
-    const handleSubmit = (event) => {
+    const handleSubmit = async (event) => {
         event.preventDefault();
-        console.log('Appointment booked:', { date, time, name, email, phone });
-        setDate('');
-        setTime('');
-        setName('');
-        setEmail('');
-        setPhone('');
+    
+        const timeParts = time.split(':');
+        const bookingTime = parseInt(timeParts[0]) * 60 + parseInt(timeParts[1]);
+    
+        const formData = {
+            bookingDate: date,
+            bookingTime: bookingTime,
+            userName: name,
+            userEmail: email,
+            userPhone: phone,
+            userAddress: address
+        };
+    
+        try {
+            const response = await axios.post('http://localhost:3001/appointmentbooking', formData);
+            console.log('Appointment booked:', response.data);
+        } catch (error) {
+            console.error('Error booking appointment:', error);
+        }
     };
 
     return (
@@ -36,7 +51,7 @@ const AppointmentBooking = () => {
                 </div>
                 <div className="appoint-box max-w-md ml-auto mr-40 float bg-white shadow-md rounded-b-md rounded-t-sm">
                     <div className='bg-shiva p-3 rounded-t-sm'><h2 className="text-xl text-center font-semibold mb-4">Book an Appointment</h2></div>
-                    <form onSubmit={handleSubmit} className='p-4 rounded-sm'>
+                    <form method='post' onSubmit={handleSubmit} className='p-4 rounded-sm'>
                         <div className="mb-4">
                             <label htmlFor="date" className="block text-md font-medium text-gray-700 mb-1">Date:</label>
                             <input
@@ -88,6 +103,17 @@ const AppointmentBooking = () => {
                                 type="tel"
                                 value={phone}
                                 onChange={(e) => setPhone(e.target.value)}
+                                className="border border-gray-300 rounded-md px-3 py-2 w-full"
+                                required
+                            />
+                        </div>
+                        <div className="mb-4">
+                            <label htmlFor="address" className='block text-md font-medium text-gray-700 mb-1'>Address:</label>
+                            <input
+                                id="address"
+                                type="text"
+                                value={address}
+                                onChange={(e) => setAddress(e.target.value)}
                                 className="border border-gray-300 rounded-md px-3 py-2 w-full"
                                 required
                             />

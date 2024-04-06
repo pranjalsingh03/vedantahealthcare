@@ -8,9 +8,11 @@ const AppointmentBooking = () => {
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
     const [address, setAddress] = useState('');
+    const [loading, setLoading] = useState(false);
 
     const handleSubmit = async (event) => {
         event.preventDefault();
+        setLoading(true);
     
         const timeParts = time.split(':');
         const bookingTime = parseInt(timeParts[0]) * 60 + parseInt(timeParts[1]);
@@ -38,6 +40,9 @@ const AppointmentBooking = () => {
             console.log('Appointment booked:', response.data);
         } catch (error) {
             console.error('Error booking appointment:', error);
+        }
+        finally {
+            setLoading(false); // Hide loading animation
         }
     };
 
@@ -127,7 +132,9 @@ const AppointmentBooking = () => {
                                 required
                             />
                         </div>
-                        <button type="submit" className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300">Book Appointment</button>
+                        <button type="submit" className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300" disabled={loading}>
+                {loading ? 'Booking...' : 'Book Appointment'}
+            </button>
                     </form>
                 </div>
 

@@ -25,7 +25,16 @@ const AppointmentBooking = () => {
         };
     
         try {
-            const response = await axios.post('http://localhost:3001/appointmentbooking', formData);
+            const response = await axios.post('https://vhcbackend.vercel.app/appointmentbooking', formData);
+            if (response.data) {
+                console.log('Appointment booked:', formData);
+                setDate('');
+                setTime('');
+                setName('');
+                setEmail('');
+                setPhone('');
+                setAddress('');
+            }
             console.log('Appointment booked:', response.data);
         } catch (error) {
             console.error('Error booking appointment:', error);

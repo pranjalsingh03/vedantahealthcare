@@ -16,11 +16,11 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/appointmentbooking' element={<AppointmentBooking/>} />
+        {/* <Route path='/appointmentbooking' element={<AppointmentBooking/>} /> */}
         <Route path='/' element={<Home/>} exact />
         <Route path='/aboutus' element={<Aboutus />} />
         <Route path='/Blogs' element={<Blogs />} />
-        <Route path='/booking' element={<AppointmentBooking />} />
+        <Route path='/appointmentbooking' element={<AppointmentBooking />} />
         <Route path='/describe' element={<Describe />} />
         <Route path='/imageSlider' element={<ImageSlider />} />
         <Route path='/features' element={<Features />} />

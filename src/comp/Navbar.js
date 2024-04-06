@@ -18,7 +18,7 @@ const Navlinks = () => {
       <NavLink to="/Blogs" className="text-gray-700 hover:text-gray-900">
         Blogs
       </NavLink>
-      <NavLink to="/bookappointment" className="text-gray-700 hover:text-gray-900">
+      <NavLink to="/appointmentbooking" className="text-gray-700 hover:text-gray-900">
         Book Appointment
       </NavLink>
       <NavLink to="/contact" className="text-gray-700 hover:text-gray-900">

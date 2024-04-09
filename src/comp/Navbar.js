@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { NavLink } from "react-router-dom";
+import React, { useState, useEffect } from 'react';
+import { NavLink, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import Phonecall from '../images/support/phone-call.png';
 import Callback from '../images/support/call-back.png';
@@ -36,10 +36,15 @@ const Navlinks = () => {
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
   const toggleNav = () => {
     setIsOpen(!isOpen);
   }
+
+  useEffect(() => {
+    setIsOpen(false); // Close the navbar when the route changes
+  }, [location]);
 
   return (
     <div className='fixed top-0 w-full z-50'>

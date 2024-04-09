@@ -16,6 +16,7 @@ module.exports = {
       md:'1rem'
     },
     fontSize:{
+      xxl:'58px',
       xl:'38px',
       sm:'24px',
       md:'15px' 

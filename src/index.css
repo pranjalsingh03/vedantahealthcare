@@ -64,13 +64,20 @@ div{
   background-position: center;
   border-radius: 20px;
 }
+.img-main{
+  height: 39rem;
+}
 
 @media not all and (min-width: 768px) {
   .nav-li{
     padding-left: 10px;
   }
   .hero-sec{
-    display: none;
+    display: block;
+    height: auto;
+  }
+  .img-main{
+    height: 31rem;
   }
   .quotes-sec{
     font-size: 30px;

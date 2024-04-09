@@ -50,7 +50,20 @@ div{
 .book-li{
   margin-top: 2rem;
 }
-
+.about-us{
+  background-image: url(./images/physioabout.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 35rem;
+  margin-top: -1.5rem;
+}
+.img-feat{
+  height: 100vh;
+  background-image: url(./images/homeimg.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
 
 @media not all and (min-width: 768px) {
   .nav-li{

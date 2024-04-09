@@ -48,7 +48,7 @@ const AppointmentBooking = () => {
 
     return (
         <>
-            <div className='grid book-div grid-cols-2 mt-8'>
+            <div className='grid book-div grid-cols-2 mt-48 max-md:mt-20'>
                 <div className='ml-40 mt-8 w-4/5 pb-12 text-bookpage'>
                     <h1 className='text-sm font-bold'>We At VHC</h1>
                     <h1 className='text-xl flex font-bold'>Provide you a complete healing Solution</h1>

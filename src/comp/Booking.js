@@ -13,10 +13,10 @@ const AppointmentBooking = () => {
     const handleSubmit = async (event) => {
         event.preventDefault();
         setLoading(true);
-    
+
         const timeParts = time.split(':');
         const bookingTime = parseInt(timeParts[0]) * 60 + parseInt(timeParts[1]);
-    
+
         const formData = {
             bookingDate: date,
             bookingTime: bookingTime,
@@ -25,23 +25,18 @@ const AppointmentBooking = () => {
             userPhone: phone,
             userAddress: address
         };
-    
         try {
-            const response = await axios.post('https://vhcbackend.vercel.app/appointmentbooking', formData);
-            if (response.data) {
-                console.log('Appointment booked:', formData);
-                setDate('');
-                setTime('');
-                setName('');
-                setEmail('');
-                setPhone('');
-                setAddress('');
-            }
-            console.log('Appointment booked:', response.data);
+            await axios.post('https://vhcbackend.vercel.app/appointmentbooking', formData);
+            console.log('Appointment booked:', formData);
+            setDate('');
+            setTime('');
+            setName('');
+            setEmail('');
+            setPhone('');
+            setAddress('');
         } catch (error) {
             console.error('Error booking appointment:', error);
-        }
-        finally {
+        } finally {
             setLoading(false); // Hide loading animation
         }
     };

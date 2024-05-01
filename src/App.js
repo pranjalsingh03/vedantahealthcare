@@ -3,7 +3,7 @@ import Navbar from './comp/Navbar'
 import { Routes, Route } from "react-router-dom";
 import { useLocation } from 'react-router-dom';
 import Aboutus from './comp/Aboutus';
-import AppointmentBooking from './comp/Booking';
+import AppointmentBooking from './comp/Booking/Booking';
 import Describe from './comp/Describe';
 import ImageSlider from './comp/ImageSlider';
 import Services from './comp/Services';
@@ -31,7 +31,7 @@ function App() {
         </div>
       )}
       {location.pathname === '/' && <Home />}
-      <Footer email="magan@gmail.com"/>
+      <Footer email="vhc@info.com"/>
       </>
   );
 }

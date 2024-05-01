@@ -37,7 +37,7 @@ const AppointmentBooking = () => {
         } catch (error) {
             console.error('Error booking appointment:', error);
         } finally {
-            setLoading(false); // Hide loading animation
+            setLoading(false);
         }
     };
 

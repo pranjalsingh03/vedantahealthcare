@@ -15,7 +15,7 @@ function Hero(props) {
                     <button className="bg-shiva p-3 rounded-full mt-8"><a href="+91xxxxxxx">Call Now</a></button>
                 </div>
                 <div className="hero-sec pt-8 w-full md:w-2/5 mx-auto md:absolute md:right-0">
-                    <img src={props.pranjal} className="rounded-lg img-main mx-auto md:mx-0" alt="" />
+                    <img src={props.photo} className="rounded-lg img-main mx-auto md:mx-0" alt="" />
                     <div className="flex justify-center pr-24 max-md:pr-0 text-lg">
                         <h1 className="text-sm md:text-3xl">{props.name}</h1>
                         <p className="pl-2 flex items-center text-md md:text-lg">({props.about})</p>

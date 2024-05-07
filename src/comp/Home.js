@@ -3,7 +3,7 @@ import React  from "react";
 import Navbar from './Navbar'
 import Hero from './Hero';
 import formal from '../images/shivaji.png'
-import AppointmentBooking from './Booking';
+import AppointmentBooking from './Booking/Booking';
 import Describe from './Describe';
 import ImageSlider from './ImageSlider';
 import Services from './Services';
@@ -14,7 +14,7 @@ function Home() {
   return (
     <>
       <Navbar />
-      <Hero name="Dr. Shivaji Mall" about="Physiotherapist" pranjal={formal}/>
+      <Hero name="Dr. Shivaji Mall" about="Physiotherapist" photo={formal}/>
       <AppointmentBooking/>
       <Describe/>
       <ImageSlider/>

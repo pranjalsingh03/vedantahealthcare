@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fc0edbda.css",
-    "main.js": "/static/js/main.cf041074.js",
+    "main.css": "/static/css/main.1467f108.css",
+    "main.js": "/static/js/main.85280811.js",
     "static/js/453.9f89513b.chunk.js": "/static/js/453.9f89513b.chunk.js",
     "static/media/physioabout.jpg": "/static/media/physioabout.57e4357f3aaaf9957be8.jpg",
     "static/media/homeimg.jpg": "/static/media/homeimg.478eafe13c643213c076.jpg",
@@ -25,12 +25,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.fc0edbda.css.map": "/static/css/main.fc0edbda.css.map",
-    "main.cf041074.js.map": "/static/js/main.cf041074.js.map",
+    "main.1467f108.css.map": "/static/css/main.1467f108.css.map",
+    "main.85280811.js.map": "/static/js/main.85280811.js.map",
     "453.9f89513b.chunk.js.map": "/static/js/453.9f89513b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc0edbda.css",
-    "static/js/main.cf041074.js"
+    "static/css/main.1467f108.css",
+    "static/js/main.85280811.js"
   ]
 }

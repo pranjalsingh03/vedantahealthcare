@@ -19,7 +19,7 @@ function App() {
   return (<>
       <Navbar />
       {location.pathname !== '/' && (
-        <div className="mt-32">
+        <div className="mt-24">
           <Routes>
             <Route path='/aboutus' element={<Aboutus />} />
             <Route path='/Blogs' element={<Blogs />} />

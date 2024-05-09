@@ -11,6 +11,7 @@ import Features from './comp/Features';
 import Footer from './comp/Footer';
 import Home from './comp/Home';
 import Blogs from './comp/Blog/mainBlog';
+import Contact from './comp/Contact'
 
 function App() {
   const location = useLocation();
@@ -27,6 +28,7 @@ function App() {
             <Route path='/imageSlider' element={<ImageSlider />} />
             <Route path='/features' element={<Features />} />
             <Route path='/services' element={<Services />} />
+            <Route path='/contact' element={<Contact/>}/>
           </Routes>
         </div>
       )}

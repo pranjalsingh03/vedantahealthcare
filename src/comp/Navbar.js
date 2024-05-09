@@ -8,7 +8,7 @@ import logo192 from '../images/logo192.png';
 
 const Navlinks = () => {
   return (
-    <div className="flex md:flex-row flex-col items-center">
+    <div className="flex md:flex-row font-sans text-ss flex-col items-center">
       <NavLink to="/" className="text-gray-700 hover:text-gray-900 p-4">
         Home
       </NavLink>

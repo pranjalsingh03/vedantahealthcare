@@ -12,6 +12,7 @@ import Footer from './comp/Footer';
 import Home from './comp/Home';
 import Blogs from './comp/Blog/mainBlog';
 import Contact from './comp/Contact'
+import Admin from './comp/Admin/Admin';
 
 function App() {
   const location = useLocation();
@@ -29,6 +30,7 @@ function App() {
             <Route path='/features' element={<Features />} />
             <Route path='/services' element={<Services />} />
             <Route path='/contact' element={<Contact/>}/>
+            <Route path='/admin' element={<Admin/>} ></Route>
           </Routes>
         </div>
       )}

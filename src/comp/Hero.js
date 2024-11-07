@@ -10,7 +10,7 @@ function Hero(props) {
                         "In every step of your journey, <br /> physical therapy empowers you to go farther"
                     </h2>
                     <p className="about-cont pt-8 md:w-1/2 mx-auto md:mx-0 md:pt-8">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam alias repellendus quasi porro nostrum rem illo, voluptatem iusto ratione. Sed quasi ducimus magni quas a ea, excepturi aliquid maiores tempora!
+                    It aims to provide a seamless booking experience for patients while offering practitioners an organized and efficient way to manage appointments and client interactions.
                     </p>
                     <button className="bg-shiva p-3 rounded-full mt-8"><a href="+91xxxxxxx">Call Now</a></button>
                 </div>

@@ -47,7 +47,7 @@ const AppointmentBooking = () => {
                 <div className='ml-40 mt-8 w-4/5 pb-12 text-bookpage'>
                     <h1 className='text-sm font-bold'>We At VHC</h1>
                     <h1 className='text-xl flex font-bold'>Provide you a complete healing Solution</h1>
-                    <p className='pt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis alias nisi saepe provident delectus harum, molestiae eius ratione animi hic pariatur.</p>
+                    <p className='pt-4'>It provides a convenient solution for patients to book physiotherapy and chiropractic appointments online, reducing the time and effort spent on traditional booking methods.</p>
                     <ul className="list-disc pl-4">
                         <li className='book-li'>Offering cost-effective physiotherapy at home by a professional physiotherapist in Delhi NCR.</li>
                         <li>100% guaranteed, effective, and quality home physiotherapy treatment to our patients.</li>

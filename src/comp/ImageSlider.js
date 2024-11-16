@@ -2,7 +2,13 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import therapist from '../images/physio.jpeg'
+import therapist1 from '../images/cardio-respiratory-physiotherapist.webp'
+import therapist2 from '../images/advanced-physiotherapy-2.webp'
+import therapist3 from '../images/chiropractor.webp'
+import therapist4 from '../images/ergonomics-consultant.webp'
+import therapist5 from '../images/geriatric-physiotherapist.webp'
+import therapist6 from '../images/home-physiotherapist.webp'
+import therapist7 from "../images/vestibular-rehabilitation-vrt.webp"
 
 function ImageSlider() {
   const settings = {
@@ -40,32 +46,32 @@ function ImageSlider() {
       <p className="mb-8 flex justify-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis alias nisi saepe provident delectus harum, molestiae eius ratione animi hic pariatur</p>
       <Slider {...settings}>
         <div className='slide-items'>
-          <img className="mx-auto rounded-full" src={therapist} alt="Specialist" />
-          <p className="text-center mt-2">Specialist 1</p>
+          <img className="mx-auto rounded-md h-80" src={therapist1} alt="Specialist" />
+          <p className="text-center mt-2">Cardio Respiratory Physiotherapist</p>
         </div>
         <div className='slide-items'>
-          <img className="mx-auto rounded-full" src={therapist} alt="Specialist" />
-          <p className="text-center mt-2">Specialist 2</p>
+          <img className="mx-auto rounded-md h-80" src={therapist2} alt="Specialist" />
+          <p className="text-center mt-2">Advanced Physiotherapy</p>
         </div>
         <div className='slide-items'>
-          <img className="mx-auto rounded-full" src={therapist} alt="Specialist" />
-          <p className="text-center mt-2">Specialist 3</p>
+          <img className="mx-auto rounded-md h-80" src={therapist3} alt="Specialist" />
+          <p className="text-center mt-2">Chiropractor</p>
         </div>
         <div className='slide-items'>
-          <img className="mx-auto rounded-full" src={therapist} alt="Specialist" />
-          <p className="text-center mt-2">Specialist 4</p>
+          <img className="mx-auto rounded-md h-80" src={therapist4} alt="Specialist" />
+          <p className="text-center mt-2">Ergonomics Consultant</p>
         </div>
         <div className='slide-items'>
-          <img className="mx-auto rounded-full" src={therapist} alt="Specialist" />
-          <p className="text-center mt-2">Specialist 5</p>
+          <img className="mx-auto rounded-md h-80" src={therapist5} alt="Specialist" />
+          <p className="text-center mt-2">Geriatric Physiotherapist</p>
         </div>
         <div className='slide-items'>
-          <img className="mx-auto rounded-full" src={therapist} alt="Specialist" />
-          <p className="text-center mt-2">Specialist 6</p>
+          <img className="mx-auto rounded-md h-80" src={therapist6} alt="Specialist" />
+          <p className="text-center mt-2">Home Physiotherapist</p>
         </div>
         <div className='slide-items'>
-          <img className="mx-auto rounded-full" src={therapist} alt="Specialist" />
-          <p className="text-center mt-2">Specialist 7</p>
+          <img className="mx-auto rounded-md h-80" src={therapist7} alt="Specialist" />
+          <p className="text-center mt-2">Vestibular Rehabilitation vrt</p>
         </div>
       </Slider>
     </div>

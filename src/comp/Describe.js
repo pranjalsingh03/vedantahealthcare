@@ -2,7 +2,7 @@ import React from 'react'
 import support from '../images/desc/support.png';
 import hospital from '../images/desc/hospital.png';
 import therapist from '../images/desc/therapist.png';
-import physio from '../images/physio.jpeg';
+import physio from '../images/sports-physiotherapist.webp';
 import homevisite from "../images/home-visite.jpg";
 import digitalHealth from "../images/digital-health.jpeg";
 

@@ -8,9 +8,10 @@ const Footer = (props) => {
         <div className="w-full  max-mb-4 max-md:mb-2">
           <h3 className="text-lg font-bold mb-2">About Us</h3>
           <ul>
-            <li><a href="/" className="text-gray-600 hover:text-gray-800">About Us</a></li>
-            <li><a href="/" className="text-gray-600 hover:text-gray-800">Blog</a></li>
-            <li><a href="/" className="text-gray-600 hover:text-gray-800">FAQ</a></li>
+            <li><a href="/aboutus" className="text-gray-600 hover:text-gray-800">About Us</a></li>
+            <li><a href="/Blogs" className="text-gray-600 hover:text-gray-800">Blog</a></li>
+            <li><a href="/" className="text-gray-600 hover:text-gray-800">AI Assistance (Comming Soon..)</a></li>
+            <li><a href="/" className="text-gray-600 hover:text-gray-800">Remote Monitoring</a></li>
           </ul>
         </div>
         <div className="w-full  mb-4 max-md:mb-2">

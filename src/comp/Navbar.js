@@ -18,18 +18,26 @@ const Navlinks = () => {
       <NavLink to="/Blogs" className="text-gray-700 hover:text-gray-900 p-4">
         Blogs
       </NavLink>
-      <NavLink to="/appointmentbooking" className="text-gray-700 hover:text-gray-900 p-4">
+      {/* <NavLink to="/appointmentbooking" className="text-gray-700 hover:text-gray-900 p-4">
         Book Appointment
-      </NavLink>
+      </NavLink> */}
       <NavLink to="/contact" className="text-gray-700 hover:text-gray-900 p-4">
         Contact us
       </NavLink>
-      {/* <NavLink to="/FAQ" className="text-gray-700 hover:text-gray-900 p-4">
-        FAQ
-      </NavLink> */}
-      <NavLink to="/services" className="text-gray-700 hover:text-gray-900 p-4">
-        Services
+      <NavLink to="/" className="text-gray-700 hover:text-gray-900 p-4">
+        AI Assistance (Comming Soon)
       </NavLink>
+      {/* <NavLink to="/services" className="text-gray-700 hover:text-gray-900 p-4">
+        Services
+      </NavLink> */}
+      <NavLink to="http://localhost/vhc-php/whologin.php" className="text-gray-700 hover:text-gray-900 p-4">
+        Login
+      </NavLink>
+      <NavLink to="http://localhost/vhc-php/register.php" className="text-gray-700 hover:text-gray-900 p-4">
+        Register
+      </NavLink>
+      
+      
     </div>
   );
 };

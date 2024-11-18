@@ -43,7 +43,7 @@ function ImageSlider() {
     <div className='bg-cyan-100'>
     <div className="container mx-auto px-8 py-20">
       <h1 className="text-xl font-semibold mb-4 flex justify-center">VHC Specialists</h1>
-      <p className="mb-8 flex justify-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis alias nisi saepe provident delectus harum, molestiae eius ratione animi hic pariatur</p>
+      <p className="mb-8 flex justify-center">Physiotherapy can help you strengthen your core muscles and improve your function.</p>
       <Slider {...settings}>
         <div className='slide-items'>
           <img className="mx-auto rounded-md h-80" src={therapist1} alt="Specialist" />

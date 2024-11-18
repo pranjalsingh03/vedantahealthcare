@@ -9,11 +9,11 @@ import brain from '../images/service/brain.png';
 
 function ServiceCard({ title, description, imageUrl }) {
   return (
-    <div className="service">
+    <div className="service border p-4 rounded-md">
       <img src={imageUrl} alt={title} className="service-image h-16" />
       <h2 className='text-white font-semibold text-sm'>{title}</h2>
       <p className='text-white font-thin text-md'>{description}</p>
-      <a href="http.js" className="btn text-white">Read More</a>
+      {/* <a href="http.js" className="btn text-white">Read More</a> */}
     </div>
   );
 }
@@ -53,7 +53,7 @@ function Services() {
   ];
 
   return (
-    <div className='bg-black'>
+    <div className='bg-black invert'>
     <div className="container mx-auto px-8 py-8">
       <h1 className="text-xl text-white mb-4">Our Services</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

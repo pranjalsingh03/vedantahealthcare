@@ -10,7 +10,7 @@ const Footer = (props) => {
           <ul>
             <li><a href="/aboutus" className="text-gray-600 hover:text-gray-800">About Us</a></li>
             <li><a href="/Blogs" className="text-gray-600 hover:text-gray-800">Blog</a></li>
-            <li><a href="/" className="text-gray-600 hover:text-gray-800">AI Assistance (Comming Soon..)</a></li>
+            <li><a href="/Ai" className="text-gray-600 hover:text-gray-800">AI Assistance (Comming Soon..)</a></li>
             <li><a href="/" className="text-gray-600 hover:text-gray-800">Remote Monitoring</a></li>
           </ul>
         </div>

@@ -13,6 +13,7 @@ import Home from './comp/Home';
 import Blogs from './comp/Blog/mainBlog';
 import Contact from './comp/Contact'
 import Admin from './comp/Admin/Admin';
+import AiAssistance from './comp/AiAssistance';
 
 function App() {
   const location = useLocation();
@@ -27,6 +28,7 @@ function App() {
             <Route path='/appointmentbooking' element={<AppointmentBooking />} />
             <Route path='/describe' element={<Describe />} />
             <Route path='/imageSlider' element={<ImageSlider />} />
+            <Route path='/Ai' element={<AiAssistance />} />
             <Route path='/features' element={<Features />} />
             <Route path='/services' element={<Services />} />
             <Route path='/contact' element={<Contact/>}/>

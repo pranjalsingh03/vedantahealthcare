@@ -30,10 +30,10 @@ const Navlinks = () => {
       {/* <NavLink to="/services" className="text-gray-700 hover:text-gray-900 p-4">
         Services
       </NavLink> */}
-      <NavLink to="http://localhost/vhc-php/whologin.php" className="text-gray-700 hover:text-gray-900 p-4">
+      <NavLink to="http://vedantahealthcare.42web.io/whologin.php" className="text-gray-700 hover:text-gray-900 p-4">
         Login
       </NavLink>
-      <NavLink to="http://localhost/vhc-php/register.php" className="text-gray-700 hover:text-gray-900 p-4">
+      <NavLink to="http://vedantahealthcare.42web.io/register.php" className="text-gray-700 hover:text-gray-900 p-4">
         Register
       </NavLink>
       

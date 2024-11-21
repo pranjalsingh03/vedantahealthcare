@@ -56,11 +56,6 @@ function Navbar() {
 
   return (
     <div className='fixed top-0 w-full z-50'>
-      <div className='flex justify-around bg-norm text-lg'>
-        <p className='flex items-center'><img src={Callback} className='h-4 flex mr-2' alt="" /> Request a callback</p>
-        <p className='flex items-center'><img src={Phonecall} className='h-4 flex mr-2' alt="" /> Call</p>
-        <p className='flex items-center'><img src={Whatsapp} className='h-4 flex mr-2' alt="" /> Whatsapp</p>
-      </div>
       <nav className='flex justify-around items-center bg-norm text-lg px-4 py-2'>
         <img src={logo192} alt="logo" className='h-16 flex relative max-md:right-4' />
         <div className="hidden md:flex">

@@ -24,7 +24,7 @@ const Navlinks = () => {
       <NavLink to="/contact" className="text-gray-700 hover:text-gray-900 p-4">
         Contact us
       </NavLink>
-      <NavLink to="/" className="text-gray-700 hover:text-gray-900 p-4">
+      <NavLink to="/Ai" className="text-gray-700 hover:text-gray-900 p-4">
         AI Assistance (Comming Soon)
       </NavLink>
       {/* <NavLink to="/services" className="text-gray-700 hover:text-gray-900 p-4">

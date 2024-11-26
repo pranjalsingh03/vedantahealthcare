@@ -65,18 +65,3 @@ const OffcanvasExample = () => {
 }
 
 export default OffcanvasExample;
-
-
-
-{/* <li className='nav-li'>
-      <Link to="/">Home</Link>
-    </li>
-    <li className='nav-li'>
-      <Link to="/Aboutus">Services</Link>
-    </li>
-    <li className='nav-li'>
-      <Link to="/Aboutus">Aboutus</Link>
-    </li>
-    <li className='nav-li'>
-      <Link to="/Aboutus">Contactus</Link>
-    </li> */}
